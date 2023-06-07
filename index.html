@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Jaya Prakash Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftsec">
+                Hi my name is <span class="purple">Jayaprakash</span>
+                Jayaprakash and Im a
+                <span id="element"></span>
+            </div>
+            <div class="rightsec">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.Pb8bdQKtMhUOWOICVgZwqgHaHa&pid=Api&P=0&h=180.png " alt="">
+            </div>
+        </section>
+        <section class="second">
+            <h1>Past Experience</h1>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'ML Enthusiasist'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
